@@ -1,14 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
 
-const SliderPage = () => {
-  return (
-    <div className="my-5">
-      <input type="range" className="custom-range" id="customRange1" />
-    </div>
-  );
-}
-
 function App() {
 
   const minAmount = 500;
